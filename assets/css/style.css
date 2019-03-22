@@ -65,7 +65,6 @@ header{
   font-size: 50px;
   background: orange;
   border-radius: 10px;
-	border: purple 10px groove;
   text-align: center;
 	width: 90%;
 	margin: 5%;
@@ -75,14 +74,44 @@ img, object, iframe{
 	max-width: 100%;
 }
 
+.text-div{
+  text-align: left;
+  position: absolute;
+  z-index: 3;
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  background: black;
+}
 
+.videoWrapper iframe,
+.videoWrapper embed,
+.videoWrapper object {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
 
 #title{
+  text-align: center bottom;
+  position: absolute;
   font-size: 24px;
 	color:white;
 	font: Helvetica;
-
+  z-index: 3;
 }
+h1{
+  font-size: 36px;
+  color:white;
+  font: Helvetica;
+  }
 
 
 .contentbox{
