@@ -86,7 +86,7 @@ p{
 .vid-info .acronym { display: none; }
 }
 
-#page{
+.pagewrapper{
   position: relative;
   z-index: 1;
   min-width: 100%;
