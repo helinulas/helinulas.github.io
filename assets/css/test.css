@@ -86,7 +86,7 @@ p{
 .vid-info .acronym { display: none; }
 }
 
-#title{
+#pagewrapper{
   position: relative;
   z-index: 1;
   min-width: 100%;
@@ -101,7 +101,45 @@ p{
   position: relative;
   margin-top: 5vh;
   z-index: 1;
-  padding-left: 1%;
+  padding-left: 3%;
+  height: auto;
+  margin-bottom: 2%;
   text-align: left;
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.buttonwrapper{
+  position: relative;
+  display: inline-block;
+  height: 1.8em;
+  margin: 0 1% 0 1%;
+  overflow: hidden;
+}
+
+.buttontitle{
+  position: relative;
+  font-family: Helvetica, "Lucida Console", Arial;
+  font-size: 1.8em;
+  color: white;
+  display: block;
+  text-decoration: none;
+  transition: 1s;
+  top: 0;
+}
+
+.buttoninfo{
+  position: relative;
+  font-family: Helvetica, "Lucida Console", Arial;
+  font-size: 1.2em;
+  color: white;
+  display: block;
+  text-decoration: none;
+  transition: 1s;
+  top: 0;
+}
+
+.buttonwrapper:hover .buttontitle,
+.buttonwrapper:hover .buttoninfo{
+  top: -1em;
+  transition: 1s;
 }
