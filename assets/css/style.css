@@ -99,11 +99,11 @@ p{
 
 .more{
   position: relative;
-  margin-top: 5vh;
+  margin-top: 1vh;
   z-index: 1;
   padding-left: 3%;
   height: auto;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   text-align: left;
   background-color: rgba(0, 0, 0, 0.5);
 }
