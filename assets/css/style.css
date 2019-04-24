@@ -135,10 +135,11 @@ p{
 }
 
 .more{
-  position: absolute;
+  position: relative;
   margin-top: 1vh;
   z-index: 1;
   margin-bottom: 1%;
+  padding-left: 3em;
   text-align: left;
   background-color: rgba(0, 0, 0, 0.5);
   bottom: 0;
