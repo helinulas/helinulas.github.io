@@ -97,15 +97,6 @@ p{
   left: 0;
 }
 
-.more{
-  position: absolute;
-  margin-top: 1vh;
-  z-index: 1;
-  margin-bottom: 1%;
-  text-align: left;
-  background-color: rgba(0, 0, 0, 0.5);
-  bottom: 0;
-}
 
 .buttonwrapper{
   position: relative;
@@ -141,4 +132,14 @@ p{
 .buttonwrapper:hover .buttoninfo{
   top: -1em;
   transition: 1s;
+}
+
+.more{
+  position: absolute;
+  margin-top: 1vh;
+  z-index: 1;
+  margin-bottom: 1%;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
 }
